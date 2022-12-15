@@ -1,5 +1,5 @@
-import { RmqService } from '@app/common';
 import { NestFactory } from '@nestjs/core';
+import { RmqService } from '@app/common';
 import { BillingModule } from './billing.module';
 
 async function bootstrap() {
